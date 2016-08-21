@@ -191,7 +191,7 @@ public class MainActivity extends AppCompatActivity
     {
       super.onCreate(savedInstanceState);
       mNum = getArguments() != null
-             ? getArguments().getInt("num")
+             ? getArguments().getInt(ARG_SECTION_NUMBER)
              : 1;
     }
 
